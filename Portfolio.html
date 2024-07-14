@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://svgicons.sparkk.fr/">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+            <path d="M13.889,11.611c-0.17,0.17-0.443,0.17-0.612,0l-3.189-3.187l-3.363,3.36c-0.171,0.171-0.441,0.171-0.612,0c-0.172-0.169-0.172-0.443,0-0.611l3.667-3.669c0.17-0.17,0.445-0.172,0.614,0l3.496,3.493C14.058,11.167,14.061,11.443,13.889,11.611 M18.25,10c0,4.558-3.693,8.25-8.25,8.25c-4.557,0-8.25-3.692-8.25-8.25c0-4.557,3.693-8.25,8.25-8.25C14.557,1.75,18.25,5.443,18.25,10 M17.383,10c0-4.07-3.312-7.382-7.383-7.382S2.618,5.93,2.618,10S5.93,17.381,10,17.381S17.383,14.07,17.383,10"></path>
+        </svg>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portf<span>olio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#certifications" class="menu-btn">Certifications</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <svg class="menu-btn" viewBox="0 0 20 20">
+                <path d="M10,1.445c-4.726,0-8.555,3.829-8.555,8.555c0,4.725,3.829,8.555,8.555,8.555c4.725,0,8.555-3.83,8.555-8.555C18.555,5.274,14.725,1.445,10,1.445 M10,17.654c-4.221,0-7.654-3.434-7.654-7.654c0-4.221,3.433-7.654,7.654-7.654c4.222,0,7.654,3.433,7.654,7.654C17.654,14.221,14.222,17.654,10,17.654 M14.39,10c0,0.248-0.203,0.45-0.45,0.45H6.06c-0.248,0-0.45-0.203-0.45-0.45s0.203-0.45,0.45-0.45h7.879C14.187,9.55,14.39,9.752,14.39,10 M14.39,12.702c0,0.247-0.203,0.449-0.45,0.449H6.06c-0.248,0-0.45-0.202-0.45-0.449c0-0.248,0.203-0.451,0.45-0.451h7.879C14.187,12.251,14.39,12.454,14.39,12.702 M14.39,7.298c0,0.248-0.203,0.45-0.45,0.45H6.06c-0.248,0-0.45-0.203-0.45-0.45s0.203-0.45,0.45-0.45h7.879C14.187,6.848,14.39,7.051,14.39,7.298"></path>
+            </svg>
+          </div>
+            
+            </svg>
+        </div>
+    </nav>
+
+    <!--Home section start-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, I'm</div>
+                <div class="text-2">Lakshmi Kumari</div>
+                <div class="text-3">And I'm a Web developer</div>
+                <a href="#">Contact me</a>
+                <br><br>
+                <div class="connect">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><path d="M12 23.403V23.39 10.389L11.88 10.3h-.01L9.14 8.28C7.47 7.04 5.09 7.1 3.61 8.56 2.62 9.54 2 10.9 2 12.41v3.602L12 23.403zM38 23.39v.013l10-7.391V12.41c0-1.49-.6-2.85-1.58-3.83-1.46-1.457-3.765-1.628-5.424-.403L38.12 10.3 38 10.389V23.39zM14 24.868l10.406 7.692c.353.261.836.261 1.189 0L36 24.868V11.867L25 20l-11-8.133V24.868zM38 25.889V41c0 .552.448 1 1 1h6.5c1.381 0 2.5-1.119 2.5-2.5V18.497L38 25.889zM12 25.889L2 18.497V39.5C2 40.881 3.119 42 4.5 42H11c.552 0 1-.448 1-1V25.889z"></path>
+                        </a>
+                    </svg>
+                    
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                        <a href="https://www.linkedin.com/in/lakshmi-kumari-1657062a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXBuBjoI4Tiqi%2F1jgRZavsg%3D%3D" target="__blank">                        <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                        </a>
+                    </svg>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--About Section start-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="LAKSHMI KUMARI.jpg" alt="">
+                </div>
+
+                <div class="column right">
+                    <div class="text">I'm Lakshmi and I'm a Stdent and Web Developer</span></div>
+                    <br>
+                    <p>I am a college student who is interested in developing the skills needed to become a professional in the field of computer-assisted design. 
+                        Strong in design and integration with intuitive problem-solving skills. <br><br>Proficient in JAVA, C#, PYTHON, JAVASCRIPT, and SQL. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. 
+                        Looking to start the career as an entry-level software engineer with a reputed firm driven by 
+                        technology.<br><br>
+                        As a developer, I am passionate about creating truly beautiful, 
+                    efficient digital products to make people's experience with technology memorable.</p>
+                    <a href = "des.pdf" download >Download Resume</a>
+                    <br><br>
+                    <div class="connect">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><path d="M12 23.403V23.39 10.389L11.88 10.3h-.01L9.14 8.28C7.47 7.04 5.09 7.1 3.61 8.56 2.62 9.54 2 10.9 2 12.41v3.602L12 23.403zM38 23.39v.013l10-7.391V12.41c0-1.49-.6-2.85-1.58-3.83-1.46-1.457-3.765-1.628-5.424-.403L38.12 10.3 38 10.389V23.39zM14 24.868l10.406 7.692c.353.261.836.261 1.189 0L36 24.868V11.867L25 20l-11-8.133V24.868zM38 25.889V41c0 .552.448 1 1 1h6.5c1.381 0 2.5-1.119 2.5-2.5V18.497L38 25.889zM12 25.889L2 18.497V39.5C2 40.881 3.119 42 4.5 42H11c.552 0 1-.448 1-1V25.889z"></path>
+                            </a>
+                        </svg>
+                        
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                            <a href="https://www.linkedin.com/in/lakshmi-kumari-1657062a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXBuBjoI4Tiqi%2F1jgRZavsg%3D%3D" target="__blank">                        <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Services Section start-->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="services-content">
+                <div class="card">
+                    <div class="box">
+                        <svg class="svg-icon" viewBox="0 0 20 20">
+							<path d="M17.431,2.156h-3.715c-0.228,0-0.413,0.186-0.413,0.413v6.973h-2.89V6.687c0-0.229-0.186-0.413-0.413-0.413H6.285c-0.228,0-0.413,0.184-0.413,0.413v6.388H2.569c-0.227,0-0.413,0.187-0.413,0.413v3.942c0,0.228,0.186,0.413,0.413,0.413h14.862c0.228,0,0.413-0.186,0.413-0.413V2.569C17.844,2.342,17.658,2.156,17.431,2.156 M5.872,17.019h-2.89v-3.117h2.89V17.019zM9.587,17.019h-2.89V7.1h2.89V17.019z M13.303,17.019h-2.89v-6.651h2.89V17.019z M17.019,17.019h-2.891V2.982h2.891V17.019z"></path>
+						</svg>
+                        <div class="text">Web Development</div>
+                        <p>If you are an enterpreneur, you know that ypur success cannot depend on the opinions of others. Like the wind, opinions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                            <path d="M 25.5 11 C 14.748 11 6 18.402 6 27.5 C 6 32.733309 8.9044225 37.394745 13.410156 40.417969 L 11.027344 45.126953 L 17.341797 42.460938 C 19.29874 43.227471 21.41984 43.743637 23.660156 43.921875 C 23.242156 42.669875 23 41.359 23 40 C 23 31.716 31.283 25 41.5 25 C 42.627 25 43.725875 25.095953 44.796875 25.251953 C 43.493875 17.216953 35.348 11 25.5 11 z M 18.5 20 C 19.881 20 21 21.119 21 22.5 C 21 23.881 19.881 25 18.5 25 C 17.119 25 16 23.881 16 22.5 C 16 21.119 17.119 20 18.5 20 z M 32.5 20 C 33.881 20 35 21.119 35 22.5 C 35 23.881 33.881 25 32.5 25 C 31.119 25 30 23.881 30 22.5 C 30 21.119 31.119 20 32.5 20 z M 41.5 27 C 32.402 27 25 32.832 25 40 C 25 47.168 32.402 53 41.5 53 C 42.896575 53 44.245007 52.848424 45.541016 52.589844 L 54.585938 56.408203 L 51.5 50.316406 C 55.442246 47.938601 58 44.204715 58 40 C 58 32.832 50.598 27 41.5 27 z M 36.5 35 C 37.881 35 39 36.119 39 37.5 C 39 38.881 37.881 40 36.5 40 C 35.119 40 34 38.881 34 37.5 C 34 36.119 35.119 35 36.5 35 z M 46.5 35 C 47.881 35 49 36.119 49 37.5 C 49 38.881 47.881 40 46.5 40 C 45.119 40 44 38.881 44 37.5 C 44 36.119 45.119 35 46.5 35 z"></path>
+                        </svg>
+                        <div class="text">Social Media</div>
+                        <p>Do you want to be even more successful? Learn to love leaning and growth. The more effort you put into improving your skills.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <svg class="svg-icon" viewBox="0 0 20 20">
+                            <path d="M6.634,13.591H2.146c-0.247,0-0.449,0.201-0.449,0.448v2.692c0,0.247,0.202,0.449,0.449,0.449h4.488c0.247,0,0.449-0.202,0.449-0.449v-2.692C7.083,13.792,6.881,13.591,6.634,13.591 M6.185,16.283h-3.59v-1.795h3.59V16.283zM6.634,8.205H2.146c-0.247,
+                            0-0.449,0.202-0.449,0.449v2.692c0,0.247,0.202,0.449,0.449,0.449h4.488c0.247,0,0.449-0.202,0.449-0.449V8.653C7.083,8.407,6.881,8.205,6.634,8.205 M6.185,10.897h-3.59V9.103h3.59V10.897z M6.634,2.819H2.146c-0.247,0-0.449,0.202-0.449,0.449V5.96c0,0.247,0.202,0.449,0.449,0.449h4.488c0.247,0,0.449-0.202,0.449-0.449V3.268C7.083,3.021,6.881,2.819,6.634,2.819 M6.185,5.512h-3.59V3.717h3.59V5.512z M15.933,5.683c-0.175-0.168-0.361-0.33-0.555-0.479l1.677-1.613c0.297-0.281,0.088-0.772-0.31-0.772H9.336c-0.249,0-0.448,0.202-0.448,0.449v7.107c0,0.395,0.471,0.598,0.758,0.326l1.797-1.728c0.054,0.045,0.107,0.094,0.161,0.146c0.802,0.767,1.243,1.786,1.243,2.867c0,1.071-0.435,2.078-1.227,2.837c-0.7,0.671-1.354,1.086-2.345,1.169c-0.482,0.041-0.577,0.733-0.092,0.875c0.687,0.209,1.12,0.314,1.839,0.314c0.932,0,1.838-0.173,2.673-0.505c0.835-0.33,1.603-0.819,2.262-1.449c1.322-1.266,2.346-2.953,2.346-4.751C18.303,8.665,17.272,6.964,15.933,5.683 M15.336,14.578c-1.124,1.077-2.619,1.681-4.217,1.705c0.408-0.221,0.788-0.491,1.122-0.812c0.97-0.929,1.504-2.168,1.504-3.485c0-1.328-0.539-2.578-1.521-3.516c-0.178-0.17-0.357-0.321-0.548-0.456c-0.125-0.089-0.379-0.146-0.569,0.041L9.769,9.327v-5.61h5.861l-1.264,1.216c-0.099,0.094-0.148,0.229-0.137,0.366c0.014,0.134,0.088,0.258,0.202,0.332c0.313,0.204,0.61,0.44,0.882,0.7c1.158,1.111,2.092,2.581,2.092,4.145C17.405,12.026,16.48,13.482,15.336,14.578"></path>
+                        </svg>
+                        <div class="text">Web Design</div>
+                        <p>It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section start-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills </div>
+                    <div class="box">
+                        <svg class="svg-icon" viewBox="0 0 20 20">
+							<path fill="none" d="M19.404,6.65l-5.998-5.996c-0.292-0.292-0.765-0.292-1.056,0l-2.22,2.22l-8.311,8.313l-0.003,0.001v0.003l-0.161,0.161c-0.114,0.112-0.187,0.258-0.21,0.417l-1.059,7.051c-0.035,0.233,0.044,0.47,0.21,0.639c0.143,0.14,0.333,0.219,0.528,0.219c0.038,0,0.073-0.003,0.111-0.009l7.054-1.055c0.158-0.025,0.306-0.098,0.417-0.211l8.478-8.476l2.22-2.22C19.695,7.414,19.695,6.941,19.404,6.65z M8.341,16.656l-0.989-0.99l7.258-7.258l0.989,0.99L8.341,16.656z M2.332,15.919l0.411-2.748l4.143,4.143l-2.748,0.41L2.332,15.919z M13.554,7.351L6.296,14.61l-0.849-0.848l7.259-7.258l0.423,0.424L13.554,7.351zM10.658,4.457l0.992,0.99l-7.259,7.258L3.4,11.715L10.658,4.457z M16.656,8.342l-1.517-1.517V6.823h-0.003l-0.951-0.951l-2.471-2.471l1.164-1.164l4.942,4.94L16.656,8.342z"></path>
+						</svg>
+                        <div class="text1">
+                            <div class="head">Design + Development</div>
+                            <div class="sub-title">Clean, modern designs + optimized for performance, search engines, and converting users to customers</div>
+                        </div>
+                    
+                    </div> 
+                    <div class="box">
+                        <svg class="svg-icon" viewBox="0 0 20 20">
+							<path fill="none" d="M18.737,9.691h-5.462c-0.279,0-0.527,0.174-0.619,0.437l-1.444,4.104L8.984,3.195c-0.059-0.29-0.307-0.506-0.603-0.523C8.09,2.657,7.814,2.838,7.721,3.12L5.568,9.668H1.244c-0.36,0-0.655,0.291-0.655,0.655c0,0.36,0.294,0.655,0.655,0.655h4.8c0.281,0,0.532-0.182,0.621-0.45l1.526-4.645l2.207,10.938c0.059,0.289,0.304,0.502,0.595,0.524c0.016,0,0.031,0,0.046,0c0.276,0,0.524-0.174,0.619-0.437L13.738,11h4.999c0.363,0,0.655-0.294,0.655-0.655C19.392,9.982,19.1,9.691,18.737,9.691z"></path>
+						</svg>
+                        <div class="text1">
+                            <div class="head">Technology</div>
+                            <div class="sub-title">Combined all the latest technologies to a progressive websites</div>
+                        </div>
+                    </div>  
+                    <div class="box">
+                        <svg class="svg-icon" viewBox="0 0 20 20">
+							<path fill="none" d="M10,15.654c-0.417,0-0.754,0.338-0.754,0.754S9.583,17.162,10,17.162s0.754-0.338,0.754-0.754S10.417,15.654,10,15.654z M14.523,1.33H5.477c-0.833,0-1.508,0.675-1.508,1.508v14.324c0,0.833,0.675,1.508,1.508,1.508h9.047c0.833,0,1.508-0.675,1.508-1.508V2.838C16.031,2.005,15.356,1.33,14.523,1.33z M15.277,17.162c0,0.416-0.338,0.754-0.754,0.754H5.477c-0.417,0-0.754-0.338-0.754-0.754V2.838c0-0.417,0.337-0.754,0.754-0.754h9.047c0.416,0,0.754,0.337,0.754,0.754V17.162zM13.77,2.838H6.23c-0.417,0-0.754,0.337-0.754,0.754v10.555c0,0.416,0.337,0.754,0.754,0.754h7.539c0.416,0,0.754-0.338,0.754-0.754V3.592C14.523,3.175,14.186,2.838,13.77,2.838z M13.77,13.77c0,0.208-0.169,0.377-0.377,0.377H6.607c-0.208,0-0.377-0.169-0.377-0.377V3.969c0-0.208,0.169-0.377,0.377-0.377h6.785c0.208,0,0.377,0.169,0.377,0.377V13.77z"></path>
+						</svg>
+                        <div class="text1">
+                            <div class="head">Always Responsive</div>
+                            <div class="sub-title">A responsive design makes your Website accessible to all users, regardless of their device</div>
+                        </div>
+                    </div>                   
+
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>JAVA</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line java"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JAVASCRIPT</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line javascript"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MACHINE LEARNING USING PYTHON</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line machinelearning"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Certification Section start-->
+    <section class="certifications" id="certifications">
+        <div class="max-width">
+            <h2 class="title">Certifications</h2>
+            <div class="certifications-content">
+                <div class="card">
+                    <div class="box">
+                        <img src="ardent.jpeg">
+                        <br><br>
+                        <div class="text"><a href="ArdentCertificate.pdf">Certificate</a></div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="box">
+                        <img src="cd.jpeg">
+                        <br><br>
+                        <div class="text"><a href="CN_Certificate_b8352977d1c1372d.pdf">Certificate</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="ap.png">
+                        <br><br>
+                        <div class="text"><a href="#">Certificate</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Contact Section starts-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Let's Talk</div>
+                    <p>Thankyou for viewing my portfolio.<br>Get in touch with me using the contact details.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <path d="M12.075,10.812c1.358-0.853,2.242-2.507,2.242-4.037c0-2.181-1.795-4.618-4.198-4.618S5.921,4.594,5.921,6.775c0,1.53,0.884,3.185,2.242,4.037c-3.222,0.865-5.6,3.807-5.6,7.298c0,0.23,0.189,0.42,0.42,0.42h14.273c0.23,0,0.42-0.189,0.42-0.42C17.676,14.619,15.297,11.677,12.075,10.812 M6.761,6.775c0-2.162,1.773-3.778,3.358-3.778s3.359,1.616,3.359,3.778c0,2.162-1.774,3.778-3.359,3.778S6.761,8.937,6.761,6.775 M3.415,17.69c0.218-3.51,3.142-6.297,6.704-6.297c3.562,0,6.486,2.787,6.705,6.297H3.415z"></path>
+                            </svg>
+                            <div class="info">
+                                <div class="head">Name</div>
+                    
+                                <div class="sub-title">Lakshmi Kumari</div>
+    
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <path d="M10,1.375c-3.17,0-5.75,2.548-5.75,5.682c0,6.685,5.259,11.276,5.483,11.469c0.152,0.132,0.382,0.132,0.534,0c0.224-0.193,5.481-4.784,5.483-11.469C15.75,3.923,13.171,1.375,10,1.375 M10,17.653c-1.064-1.024-4.929-5.127-4.929-10.596c0-2.68,2.212-4.861,4.929-4.861s4.929,2.181,4.929,4.861C14.927,12.518,11.063,16.627,10,17.653 M10,3.839c-1.815,0-3.286,1.47-3.286,3.286s1.47,3.286,3.286,3.286s3.286-1.47,3.286-3.286S11.815,3.839,10,3.839 M10,9.589c-1.359,0-2.464-1.105-2.464-2.464S8.641,4.661,10,4.661s2.464,1.105,2.464,2.464S11.359,9.589,10,9.589"></path>
+                            </svg>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                
+                                <div class="sub-title">Sec-8/C, Qno.-2397, street-37,Bokaro Steel City, JHARKHAND</div>
+    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <path d="M13.372,1.781H6.628c-0.696,0-1.265,0.569-1.265,1.265v13.91c0,0.695,0.569,1.265,1.265,1.265h6.744c0.695,0,1.265-0.569,1.265-1.265V3.045C14.637,2.35,14.067,1.781,13.372,1.781 M13.794,16.955c0,0.228-0.194,0.421-0.422,0.421H6.628c-0.228,0-0.421-0.193-0.421-0.421v-0.843h7.587V16.955z M13.794,15.269H6.207V4.731h7.587V15.269z M13.794,3.888H6.207V3.045c0-0.228,0.194-0.421,0.421-0.421h6.744c0.228,0,0.422,0.194,0.422,0.421V3.888z"></path>
+                            </svg>
+                            <div class="info">
+                                <div class="head">Phone Number</div>
+                                
+                                <div class="sub-title">+91-6200571971</div>
+    
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <path d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"></path>
+                            </svg>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                
+                                <div class="sub-title">lakshmikumari4052019@gmail.com</div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="abc@gmail.com" required>
+                            </div>
+
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe project...." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                        <br><br>
+                        <div class="connect">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><path d="M12 23.403V23.39 10.389L11.88 10.3h-.01L9.14 8.28C7.47 7.04 5.09 7.1 3.61 8.56 2.62 9.54 2 10.9 2 12.41v3.602L12 23.403zM38 23.39v.013l10-7.391V12.41c0-1.49-.6-2.85-1.58-3.83-1.46-1.457-3.765-1.628-5.424-.403L38.12 10.3 38 10.389V23.39zM14 24.868l10.406 7.692c.353.261.836.261 1.189 0L36 24.868V11.867L25 20l-11-8.133V24.868zM38 25.889V41c0 .552.448 1 1 1h6.5c1.381 0 2.5-1.119 2.5-2.5V18.497L38 25.889zM12 25.889L2 18.497V39.5C2 40.881 3.119 42 4.5 42H11c.552 0 1-.448 1-1V25.889z"></path>
+                                </a>
+                            </svg>
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                                <a href="https://www.linkedin.com/in/lakshmi-kumari-1657062a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXBuBjoI4Tiqi%2F1jgRZavsg%3D%3D" target="__blank">                        <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                                </a>
+                            </svg>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer section starts-->
+    <footer>
+        <span>Created by <a href="#">Lakshmi</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+    </footer>
+    <script src="Portfolio.js"></script>
+
+</body>
+</html>
